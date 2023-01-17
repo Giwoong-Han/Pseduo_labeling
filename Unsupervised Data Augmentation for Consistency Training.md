@@ -7,3 +7,5 @@
 * Typical Noise : Additive Gaussian Noise, Dropout Noise, Adverserial Noise
 
 4. Vision과 NLP 둘 다 실험 -> 필자는 Vision에 초점을 두어 설명함
+
+- Unsupervised Data Augmentation (UDA)
