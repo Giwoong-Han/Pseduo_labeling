@@ -15,4 +15,5 @@
 
 - Unsupervised Data Augmentation (UDA)
 
-> *  ㄴ.
+> * Augmentation의 관점
+D(p_($/theta$)(y | x) || p_($/theta$)(y | x, e))
