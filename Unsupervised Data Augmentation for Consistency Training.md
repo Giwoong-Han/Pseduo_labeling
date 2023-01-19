@@ -1,4 +1,6 @@
-# Pseduo_labeling / NIPs 2020
+# Unsupervised Data Augmentation for Consistency Training / NIPs 2020
+
+* Google Research, Brain Team
 
 
 ## Short Review
