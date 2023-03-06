@@ -11,7 +11,7 @@
 * Simple Noise : Random Augmentation, Back-translation
 * Typical Noise : Additive Gaussian Noise, Dropout Noise, Adverserial Noise
 
-3. Vision과 NLP 둘 다 실험 → 필자는 Vision에 초점을 두어 설명한다.
+3. Vision과 NLP 둘 다 실험 → Vision에 초점을 두어 설명한다.
 
 ## Methods
 
