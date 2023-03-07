@@ -10,10 +10,13 @@ SSOD(Semi-Supervise Object Detection)의 세 가지 논점
 1. One-Stage SSOD의 적은 연구
 
 - 원인 : One-Stage에서는 일반적으로 Anchor based detector를 사용하는데, Postive와 Negative Sample이 Imbalance -> 낮은 퀄리티의 Pseudo Labels
+- 제안 : Pseudo Label Assigner(PLA) 사용
+
 
 2. Pseudo Label Inconsistency
 
 - 원인 : Two Stage Model에서는 좀 더 정제된 Pseudo Label을 Student 모델에 학습할 수 있으나, One Stage에서는 쉽지 않음.
+
 
 3. 높은 정확도와 효율성을 추구하는 요즘 OD 결과
 
