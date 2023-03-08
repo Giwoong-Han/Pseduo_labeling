@@ -10,7 +10,7 @@ SSOD (Semi-Supervise Object Detection)의 세 가지 논점
 1. One-Stage SSOD의 적은 연구
 
 - 원인 : One-Stage에서는 일반적으로 Anchor based detector를 사용하는데, Positive와 Negative Sample이 Imbalance -> 낮은 퀄리티의 Pseudo Labels
-- 제안 : Dense Detector (YOLO v5에서 제안한 방법), Epoch Adaptor (EA) 사용
+- 제안 : Dense Detector, Epoch Adaptor (EA) 사용
 
 
 2. Pseudo Label Inconsistency
