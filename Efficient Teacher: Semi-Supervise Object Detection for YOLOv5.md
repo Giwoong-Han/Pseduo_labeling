@@ -30,11 +30,11 @@ SSOD(Semi-Supervise Object Detection)의 세 가지 논점
 
 ## 제안 방법론
 
-## Dense Detector
+### Dense Detector
 
-## Pseudo Label Assigner(PLA)
+### Pseudo Label Assigner(PLA)
 
-## Epoch Adaptor(EA)
+### Epoch Adaptor(EA)
 
 ## 참고 설명
 
