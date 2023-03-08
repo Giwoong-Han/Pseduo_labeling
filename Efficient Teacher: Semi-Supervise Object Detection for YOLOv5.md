@@ -15,7 +15,7 @@ SSOD(Semi-Supervise Object Detection)의 세 가지 논점
 
 2. Pseudo Label Inconsistency
 
-- 원인 : Two Stage Model에서는 좀 더 정제된 Pseudo Label을 Student 모델에 학습할 수 있으나, One Stage에서는 쉽지 않음.
+- 원인 : Two-stage Model에서는 좀 더 정제된 Pseudo Label을 Student 모델에 학습할 수 있으나, One-stage에서는 쉽지 않음.
 - 제안 : Pseudo Label Assigner(PLA) 사용
 
 3. 높은 정확도와 효율성을 추구하는 요즘 OD 결과
@@ -23,6 +23,11 @@ SSOD(Semi-Supervise Object Detection)의 세 가지 논점
 - 원인 : 다양한 현실 문제에 적용하는 입장에서 넓은 시나리오를 제공해 주지 못함.
 - 제안 : SOTA를 찍는 동시에 낮은 FLOPs를 사용
 
+## Contribution
+
+현재 Anchor-free, Two-stage에서는 Semi-supervised의 Pseudo Label에서 발생하는 Inconsistency Problem에 대한 연구가 진행되었으나 (실제로 개선된 성능을 보임), 처음으로 One-stage, Anchor-based 방법론에 적용한 논문임.
+
+## 제안 방법론
 
 ## 참고 설명
 
