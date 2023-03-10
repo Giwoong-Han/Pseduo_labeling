@@ -32,6 +32,8 @@ SSOD (Semi-Supervise Object Detection)의 세 가지 논점
 
 ### Dense Detector
 
+Dense Detector은 RetinaNet-50-FPN Backbone기반으로 FPN의 output을 5에서 3으로 변경 및 Detection header들 간의 공유되는 Weight을 제거하면서 Input Resolution을 1330에서 640으로 변경함.
+
 ### Pseudo Label Assigner (PLA)
 
 ### Epoch Adaptor (EA)
