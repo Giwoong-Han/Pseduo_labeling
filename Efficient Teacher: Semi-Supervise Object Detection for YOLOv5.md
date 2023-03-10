@@ -45,3 +45,9 @@ Dense Detector은 RetinaNet-50-FPN Backbone기반으로 FPN의 output을 5에서
 2. Positive & Negative Sample Imbalance : 
 ① 대부분의 locations은 학습에 쓸모가 없는 배경이기 때문에 학습이 비효율적임
 ② 배경이 학습에 영향을 줘서, object를 검출하지 못하거나 배경으로 검출하는 오검출을 야기함
+
+3. NMS (Non-maximum Suppreisson) :
+① 모든 bounding box에 대하여 threshold 이하의 confidence score를 가지는 Bounding Box는 제거
+② 남은 Bounding Box들을 Confidence score 기준 모두 내림차순 정렬
+③ 맨 앞에 있는 Bounding box 하나를 기준으로 잡고, 다른 bounding box와 IoU 값을 구함. IoU가 threshold 이상인 Bounding box들은 제거
+④ 해당 과정을 순차적으로 시행, Confidense threshold가 높을수록, IoU threshold가 낮을수록 더 많은 bounding box가 제거
