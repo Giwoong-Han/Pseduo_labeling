@@ -50,4 +50,4 @@ Dense Detector은 ResNet-50-FPN Backbone기반으로 FPN의 output을 5에서 3�
 ① 모든 bounding box에 대하여 threshold 이하의 confidence score를 가지는 Bounding Box는 제거
 ② 남은 Bounding Box들을 Confidence score 기준 모두 내림차순 정렬
 ③ 맨 앞에 있는 Bounding box 하나를 기준으로 잡고, 다른 bounding box와 IoU 값을 구함. IoU가 threshold 이상인 Bounding box들은 제거
-④ 해당 과정을 순차적으로 시행, Confidense threshold가 높을수록, IoU threshold가 낮을수록 더 많은 bounding box가 제거
+④ 해당 과정을 순차적으로 시행, Confidene threshold가 높을수록, IoU threshold가 낮을수록 더 많은 bounding box가 제거
